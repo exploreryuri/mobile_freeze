@@ -32,9 +32,7 @@ class ProductScreen extends StatelessWidget {
                   borderRadius: BorderRadius.circular(30.0),
                 ),
               ),
-              onChanged: (value) {
-                // Implement search functionality if needed
-              },
+              onChanged: (value) {},
             ),
             SizedBox(height: 16),
             ElevatedButton.icon(
